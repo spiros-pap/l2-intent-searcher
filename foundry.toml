@@ -17,3 +17,4 @@ int_types = "long"
 
 [profile.ci]
 verbosity = 4
+remappings = ["forge-std/=lib/forge-std/src/"]
