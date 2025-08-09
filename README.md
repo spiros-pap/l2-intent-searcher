@@ -16,3 +16,13 @@ cd src-bot && npm i && npm run typecheck
 \\\
 
 See \docs/architecture.md\ for design notes.
+## High-level flow
+
+`mermaid
+flowchart LR
+  A[Configs (TOML)] --> B[Searcher (TS)]
+  B -->|Find route| C[Router calldata]
+  C --> D[Router.sol]
+  D --> E[Adapters]
+  E --> F[DEX Pool(s)]
+  D -->|final tokens| G[(Recipient)]
