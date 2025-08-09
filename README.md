@@ -26,3 +26,9 @@ flowchart LR
   D --> E[Adapters]
   E --> F[DEX Pool(s)]
   D -->|final tokens| G[(Recipient)]
+## Roadmap
+- [ ] Real Uniswap V3 calldata (exactInputSingle) adapter
+- [ ] Curve stable-swap adapter
+- [ ] Private tx submission interface (L2 relays)
+- [ ] Backtester on forked state (Foundry + TS)
+- [ ] Minimal dashboard for fills & PnL
