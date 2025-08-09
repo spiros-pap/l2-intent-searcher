@@ -11,7 +11,11 @@ jobs:
         uses: foundry-rs/foundry-toolchain@v1
         with:
           version: nightly
-      - name: Build (contracts only)
+      - name: Install deps (forge-std)
+        run: forge install foundry-rs/forge-std@v1.9.5 --no-commit --no-git
+      - name: Show lib dir (debug)
+        run: ls -la lib
+      - name: Build (contracts + scripts)
         run: forge build
   bot:
     runs-on: ubuntu-latest
