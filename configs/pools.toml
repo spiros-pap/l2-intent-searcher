@@ -1,0 +1,13 @@
+[[pool]]
+chain = "optimism"
+dex = "uniswap_v3"
+token_in = "WETH"
+token_out = "USDC"
+fee = 500
+
+[[pool]]
+chain = "optimism"
+dex = "curve"
+token_in = "USDC"
+token_out = "DAI"
+pool_id = "stables"

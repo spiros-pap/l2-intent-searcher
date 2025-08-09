@@ -1,0 +1,11 @@
+[optimism]
+chain_id = 10
+explorer = "https://optimistic.etherscan.io"
+
+[arbitrum]
+chain_id = 42161
+explorer = "https://arbiscan.io"
+
+[zksync]
+chain_id = 324
+explorer = "https://explorer.zksync.io"

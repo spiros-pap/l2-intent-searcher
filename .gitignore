@@ -1,0 +1,24 @@
+# Node
+node_modules
+dist
+.out
+.next
+coverage
+
+# Python
+__pycache__/
+*.pyc
+.venv
+
+# Foundry
+cache/
+out/
+
+# Reports
+reports/
+artifacts/
+
+# Editor
+.DS_Store
+.idea
+.vscode
