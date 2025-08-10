@@ -1,4 +1,4 @@
-﻿# Node
+# Node
 node_modules
 dist
 .out
@@ -28,7 +28,7 @@ artifacts/
 npm-debug.log*
 yarn-debug.log*
 
-# Env files
+# Env files (we don't use .env, but keep it ignored to avoid leaks)
 .env
 .env.*
 !.env.example
